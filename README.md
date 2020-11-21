@@ -3,6 +3,7 @@
 ## React TODO desse repository
 ##### Email: (a@a.com) e senha(123). também se encontra no db.json do arquivo!
 ![gif do projeto TODO em react](https://github.com/ciceromngr/Revisao-React-Angular-Vue/blob/main/Todo-react.gif)
+##### para iniciar o db.json, basta colocar o seguinte codigo no seu prompt json-server --watch db.json --port 3333
 ### Criar um Projeto React
 ##### npx create-react-app my-app 
 ##### cd my-app
