@@ -1,7 +1,7 @@
 # Estrutura basica React-Angular-Vue
 
 ## React TODO desse repository
-##### Email e senha : a@a.com e 123 também se encontra no db.json!
+##### Email: (a@a.com) e senha(123). também se encontra no db.json do arquivo!
 ![gif do projeto TODO em react](https://github.com/ciceromngr/Revisao-React-Angular-Vue/blob/main/Todo-react.gif)
 ### Criar um Projeto React
 ##### npx create-react-app my-app 
