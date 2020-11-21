@@ -11,18 +11,13 @@
       "id": 2
     },
     {
-      "descricao": "JSON",
-      "concluido": false,
-      "id": 3
-    },
-    {
       "descricao": "Axios",
-      "concluido": false,
+      "concluido": true,
       "id": 4
     },
     {
-      "descricao": "Lavar louca",
-      "concluido": true,
+      "descricao": "Teste Maroto",
+      "concluido": false,
       "id": 5
     }
   ],
