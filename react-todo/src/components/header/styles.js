@@ -14,7 +14,7 @@ ul {
     justify-content: center;
     align-items: center;
     list-style: none;
-
+    flex-direction: column;
 }
     li {
         border-radius: 5px;
