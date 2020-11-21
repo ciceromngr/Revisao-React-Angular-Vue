@@ -1,24 +1,9 @@
 {
   "tarefas": [
     {
-      "descricao": "Aprender react",
+      "descricao": "teste",
       "concluido": false,
       "id": 1
-    },
-    {
-      "descricao": "Aprender react native",
-      "concluido": false,
-      "id": 2
-    },
-    {
-      "descricao": "Axios",
-      "concluido": true,
-      "id": 4
-    },
-    {
-      "descricao": "Teste Maroto",
-      "concluido": false,
-      "id": 5
     }
   ],
   "usuarios": [

@@ -26,27 +26,32 @@ img {
 }
 .main-tarefas {
     position: relative;
-    margin-top: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
     background: rgba(140,176,255,.4);
     padding: 26px;
-    box-shadow: 2px 2px 4px rgba(0,0,0,.4),
+    box-shadow: 2px 2px 4px rgba(0,0,0,.2),
                 2px 2px 4px rgba(0,0,0,.1);
 }
 .tarefas {
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 20px;
+    color: #f3f3f3;
+    font-weight: bold;
 }
 .painel-tarefas {
-    margin-top: 150px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: #f3f3f3;
+    font-weight: bold;
 }
 
 b {
-    color: #f4f4f4;
+    color: #0009;
     font-weight: bold;
     font-size: 1.1rem;
     margin: 5px;

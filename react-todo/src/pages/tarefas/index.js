@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 import api from '../../services/api';
 import { Container } from './styles';
 import { FiCircle, FiCheckCircle, FiDelete } from 'react-icons/fi';
+import { Header } from '../../components/header';
 export const Tarefas = () => {
     const [tasks, setTasks] = useState([]);
     const [newTask, setNewTask] = useState('');
@@ -64,34 +64,19 @@ export const Tarefas = () => {
     )
     return (
         <Container>
-            <div className="header">
-                <ul>
-                    <li>
-                        <Link to="/dashboard">
-                            Dashboard
-                    </Link>
-                    </li>
-                    <li>
-                        <Link to="/tarefas">
-                            Tarefas
-                    </Link>
-                    </li>
-                </ul>
-            </div>
+            <Header />
             <h1>Criar Tarefas</h1>
             <form onSubmit={handleAddTask}>
-                <div className="input">
-                    <input type="text"
-                        value={newTask}
-                        onChange={e => setNewTask(e.target.value)}
-                        placeholder="Escreva a nova Tarefa"
-                    />
-                    <button>Criar</button>
-                </div>
+                <input type="text"
+                    value={newTask}
+                    onChange={e => setNewTask(e.target.value)}
+                    placeholder="Escreva a nova Tarefa"
+                />
+                <button>Criar</button>
             </form>
 
             { tasks.map(t => (
-                <div key={t.id}>
+                <div key={t.id} className="informacoes">
                     <strong>{t.descricao}</strong>
                     <span>
                         {
