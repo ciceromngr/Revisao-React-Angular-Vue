@@ -28,7 +28,7 @@ img {
     position: relative;
     border-radius: 5px;
     margin-top: 20px;
-    background: rgba(140,176,255,.4);
+    background: rgba(140,176,255,.8);
     padding: 26px;
     box-shadow: 2px 2px 4px rgba(0,0,0,.2),
                 2px 2px 4px rgba(0,0,0,.1);
