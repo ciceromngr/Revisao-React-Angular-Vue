@@ -1,0 +1,36 @@
+{
+  "tarefas": [
+    {
+      "descricao": "Aprender react",
+      "concluido": false,
+      "id": 1
+    },
+    {
+      "descricao": "Aprender react native",
+      "concluido": false,
+      "id": 2
+    },
+    {
+      "descricao": "JSON",
+      "concluido": false,
+      "id": 3
+    },
+    {
+      "descricao": "Axios",
+      "concluido": false,
+      "id": 4
+    },
+    {
+      "descricao": "Lavar louca",
+      "concluido": true,
+      "id": 5
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "a@a.com",
+      "password": "123"
+    }
+  ]
+}
