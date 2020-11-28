@@ -10,7 +10,7 @@
 ##### npm start or yarn start
 ### Documentation React acesse [aqui](https://pt-br.reactjs.org/docs/create-a-new-react-app.html); 
 
-## Vue js
+## Vue js (Em Processe de estudo!)
 ### Criar um Projeto Vuejs
 #### npm install -g @vue/cli
 ##### OR
@@ -18,7 +18,7 @@
 #### vue create my-app
 ### Documentation Vuejs acesse [aqui](https://cli.vuejs.org/guide/creating-a-project.html#vue-create)
 
-## Angular
+## Angular (Em Processe de estudo!)
 ### Criar um Projeto Angular
 #### npm install -g @angular/cli
 #### ng new my-app
